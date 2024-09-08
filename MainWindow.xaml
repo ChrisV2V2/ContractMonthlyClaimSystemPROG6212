@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContractMonthlyClaimSystemPROG6212"
         mc:Ignorable="d"
-        Title="Contract Monthly Clain System" Height="350" Width="600">
+        Title="Contract Monthly Clain System" Height="450" Width="600">
     <Grid>
         <TextBlock Text="Main Menu" 
                    FontSize="20" 
@@ -20,7 +20,7 @@
             Margin="0,70,0,0"/>
 
         <Button Content="Submit Claim" 
-                Width="100" 
+                Width="120" 
                 Height="50" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Top" 
@@ -28,19 +28,27 @@
                 Click="SubmitClaim_Click"/>
 
         <Button Content="Claim Status" 
-                Width="100" 
+                Width="120" 
                 Height="50" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Top" 
                 Click="ClaimStatus_Click" Margin="0,182,0,0"/>
 
+        <Button Content="Upload Documents" 
+        Width="120" 
+        Height="50" 
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Top" 
+        Click="UploadDocuments_Click" Margin="0,245,0,0"/>
+
         <Button Content="Log Out" 
-                Width="100" 
+                Width="120" 
                 Height="50" 
-                Background="LightPink"
+                                Background="Crimson" 
+                Foreground="White" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Top" 
-                Margin="0,247,0,0" 
+                Margin="0,306,0,0" 
                 Click="LogOut_Click"/>
 
 

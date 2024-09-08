@@ -38,6 +38,14 @@ namespace ContractMonthlyClaimSystemPROG6212
             this.Close();
         }
 
+        private void UploadDocuments_Click(object sender, RoutedEventArgs e)
+        {
+            // Navigate to the claim status page
+            UploadDocuments uploadDocumentsPage = new UploadDocuments();
+            uploadDocumentsPage.Show();
+            this.Close();
+        }
+
         private void LogOut_Click(object sender, RoutedEventArgs e)
         {
             // Log the user out and navigate back to the login page
