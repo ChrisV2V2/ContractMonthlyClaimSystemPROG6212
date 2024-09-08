@@ -5,13 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContractMonthlyClaimSystemPROG6212"
         mc:Ignorable="d"
-        Title="Contract Monthly Clain System" Height="450" Width="800">
+        Title="Contract Monthly Clain System" Height="350" Width="600">
     <Grid>
         <TextBlock Text="Main Menu" 
                    FontSize="20" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Top" 
                    Margin="0,20,0,0"/>
+
+        <TextBlock Text="Select an Option From The List Below" 
+            FontSize="14" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Margin="0,70,0,0"/>
+
+        <Button Content="Submit Claim" 
+                Width="100" 
+                Height="50" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Top" 
+                Margin="0,120,0,0" 
+                Click="SubmitClaim_Click"/>
+
+        <Button Content="Claim Status" 
+                Width="100" 
+                Height="50" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Top" 
+                Click="ClaimStatus_Click" Margin="0,182,0,0"/>
+
+        <Button Content="Log Out" 
+                Width="100" 
+                Height="50" 
+                Background="LightPink"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Top" 
+                Margin="0,247,0,0" 
+                Click="LogOut_Click"/>
+
 
     </Grid>
 </Window>
