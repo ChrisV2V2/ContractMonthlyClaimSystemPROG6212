@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContractMonthlyClaimSystemPROG6212"
         mc:Ignorable="d"
-        Title="SubmitClaim" Height="450" Width="800">
+        Title="Contract Monthly Claim System" Height="450" Width="600">
     <Grid>
 
         <TextBlock Text="Submit  Claim" 
@@ -19,36 +19,36 @@
                    FontSize="14" 
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top" 
-                   Margin="50,80,0,0"/>
+                   Margin="149,82,0,0"/>
         <DatePicker Name="ClaimDatePicker" 
                     HorizontalAlignment="Left" 
                     VerticalAlignment="Top" 
                     Width="200" 
-                    Margin="150,80,0,0"/>
+                    Margin="249,82,0,0"/>
 
 
         <TextBlock Text="Hours Worked:" 
                    FontSize="14" 
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top" 
-                   Margin="50,130,0,0"/>
+                   Margin="149,132,0,0"/>
         <TextBox Name="HoursWorkedTextBox" 
                  HorizontalAlignment="Left" 
                  VerticalAlignment="Top" 
                  Width="200" 
-                 Margin="150,130,0,0"/>
+                 Margin="249,132,0,0"/>
 
 
         <TextBlock Text="Hourly Rate:" 
                    FontSize="14" 
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top" 
-                   Margin="50,180,0,0"/>
+                   Margin="149,182,0,0"/>
         <ComboBox Name="RateComboBox" 
                   HorizontalAlignment="Left" 
                   VerticalAlignment="Top" 
                   Width="200" 
-                  Margin="150,180,0,0">
+                  Margin="249,182,0,0">
             <ComboBoxItem Content="This will display the lecturers hourly rate"/>
         </ComboBox>
 
@@ -57,13 +57,13 @@
                    FontSize="14" 
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top" 
-                   Margin="50,230,0,0"/>
+                   Margin="149,232,0,0"/>
         <TextBox Name="CommentsTextBox" 
                  HorizontalAlignment="Left" 
                  VerticalAlignment="Top" 
                  Width="200" 
                  Height="60" 
-                 Margin="150,230,0,0" 
+                 Margin="249,232,0,0" 
                  AcceptsReturn="True" 
                  TextWrapping="Wrap"/>
 
